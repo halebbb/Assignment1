@@ -44,7 +44,7 @@ for (m in 1:length(giant_user_location)){
 cells=c(a,d)
 giant_component=matrix(cells,length(a),2)
 giant_component
-write.table(giant_component,file='D:/Study/ECE720 S2/720 Assignment1/data/giant_component.tsv', sep="\t",row.names = FALSE, col.names = FALSE)
+write.table(giant_component,file='D:/Study/ECE720 S2/720 Assignment1/data/asker-answerer-giant.tsv', sep="\t",row.names = FALSE, col.names = FALSE)
 write.table(giant_component,file='D:/Study/ECE720 S2/720 Assignment1/data/giant_component.csv', sep=" ",row.names = FALSE, col.names = FALSE)
 
 #plot giant component graph
